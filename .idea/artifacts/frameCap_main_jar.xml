@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="frameCap.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/frameCap_main_jar</output-path>
+    <root id="root">
+      <element id="archive" name="frameCap.main.jar">
+        <element id="module-output" name="frameCap.main" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/libs/OnyxLib.jar" />
+    </root>
+  </artifact>
+</component>

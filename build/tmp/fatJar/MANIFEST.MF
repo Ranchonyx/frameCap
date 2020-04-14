@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-title: FrameCapture
+Main-Class: Main
+
