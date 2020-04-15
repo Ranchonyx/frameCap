@@ -1,4 +1,3 @@
-import com.onyxlib.ImageProcessing.OpenCV_Modules.VideoWorker.*;
 import com.onyxlib.ImageProcessing.OpenCV_Modules.VideoWorker.VideoWorker;
 import java.io.File;
 import java.io.IOException;
@@ -7,6 +6,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         if(args[0].equals("-?") || args[0].equals("-help") || args[0].equals("/?")) {
+
 
             System.out.println("Dependencies: OpenCV Windows native Library installed at version 3410.");
             System.out.println("Dependencies 2: Installing OpenCV_java3410.dll to your Windows Operating System");

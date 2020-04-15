@@ -1,9 +1,11 @@
 plugins {
     id 'java'
 }
+int versionM = 1;
+int versionS = 1;
 
 group 'org.example'
-version '1.0-SNAPSHOT'
+version String.valueOf(versionM)+"."+String.valueOf(versionS)+"-SNAPSHOT"
 sourceCompatibility = 1.8
 
 task fatJar(type : Jar) {
